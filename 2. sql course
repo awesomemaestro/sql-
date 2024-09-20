@@ -1,0 +1,6 @@
+1. SELECT LOWER ("Hello world") as lower_string
+2. select member_name, YEAR(birthday) AS year_of_birth
+from FamilyMembers
+3. SELECT member_name,
+   LENGTH(member_name) - INSTR(member_name, ' ') AS lastname_length
+FROM FamilyMembers
