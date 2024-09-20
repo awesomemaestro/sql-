@@ -1,0 +1,6 @@
+1.   SELECT good, amount * unit_price as sum
+    FROM Payments 
+        ORDER BY sum DESC
+2.  SELECT * FROM FamilyMembers
+where member_name LIKE '%Quincey'
+ORDER BY status ASC, member_name ASC
