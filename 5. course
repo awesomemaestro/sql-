@@ -1,0 +1,9 @@
+1.  SELECT first_name, last_name
+from student
+where middle_name IS NULL 
+2.  SELECT room_id, start_date, end_date
+FROM Reservations
+WHERE total Between 500 and 1200
+3.  select *
+from Student
+WHERE YEAR(birthday) IN (2000, 2002, 2004)
