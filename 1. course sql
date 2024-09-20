@@ -1,0 +1,5 @@
+1. Select "Hello world"
+2. Select * from Payments
+3. select member_id, member_name, status
+from FamilyMembers
+4. select name as passengerName from passenger
