@@ -1,0 +1,4 @@
+SELECT home_type, MAX(price) - MIN(price) as difference
+FROM Rooms
+GROUP BY home_type
+HAVING COUNT (*) >=2
