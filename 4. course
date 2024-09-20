@@ -1,0 +1,8 @@
+1.  select good From Payments
+where unit_price > 2000
+2.  select member_name From FamilyMembers
+where status = "father"
+3.  select member_name, birthday from FamilyMembers
+where status = "father" OR status = "mother"
+4.  select * from Rooms
+where has_kitchen= true and has_internet=true
