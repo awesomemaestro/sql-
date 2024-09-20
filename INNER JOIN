@@ -1,0 +1,3 @@
+SELECT Class.name, Student_in_class.student FROM Class
+INNER JOIN Student_in_class
+ON class.id=Student_in_class.class
